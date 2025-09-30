@@ -136,7 +136,7 @@ const handleLogin = () => {
                 title="BrightSign"
                 importance="NORMAL"
                 importanceLevel="normal"
-                notes="Source (online): BrightSign network requirements\nSource (online): BrightSign network requirements for synchronized playback"
+                notes="Source (online): BrightSign network requirements"
                 href="https://docs.brightsign.biz/advanced/bsn-ports-and-urls"
                 onClick={handleCardClick}
               />
@@ -144,7 +144,7 @@ const handleLogin = () => {
                 title="BrightSign Sync Playback"
                 importance="NORMAL"
                 importanceLevel="normal"
-                notes="Detailed sync playback network considerations"
+                notes="Source (online): BrightSign network requirements for synchronized playback"
                 href="https://docs.brightsign.biz/advanced/sync-network-and-switch-settings"
                 onClick={handleCardClick}
               />
