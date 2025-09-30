@@ -118,7 +118,7 @@ const handleLogin = () => {
               <Card
                 title="Pharos"
                 importance="CRITICAL"
-                importanceLevel="high"
+                importanceLevel="critical"
                 notes="Source (PDF): Pharos network requirements PDF"
                 href="https://dl.pharoscontrols.com/documentation/application_notes/archive/Pharos_Network_Guidelines.pdf"
                 onClick={handleCardClick}
