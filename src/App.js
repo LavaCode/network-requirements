@@ -45,9 +45,9 @@ const handleLogin = () => {
             <p className="text-slate-400 mb-8 text-sm text-center">
               Device Network Requirements<br /> Authentication Required
             </p>
-            <label className="block text-slate-300 text-sm font-medium mb-2">
+            {/* <label className="block text-slate-300 text-sm font-medium mb-2">
               Access Password
-            </label>
+            </label> */}
             <div className="relative">
               <div className="absolute left-3 top-1/2 -translate-y-1/2">
                 <Lock className="w-5 h-5 text-slate-500" />
