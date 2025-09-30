@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Lock, LogOut, ExternalLink, AlertCircle, Shield } from "lucide-react";
 
-const PASSWORD = process.env.REACT_APP_LOGIN_PASSWORD;
+const PASSWORDS = process.env.REACT_APP_LOGIN_PASSWORDS
+  ? process.env.REACT_APP_LOGIN_PASSWORDS.split(",")
+  : [];
 
 const App = () => {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -9,15 +11,15 @@ const App = () => {
   const [error, setError] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
-  const handleLogin = () => {
-    if (password === PASSWORD) {
-      setLoggedIn(true);
-      setPassword("");
-      setError(false);
-    } else {
-      setError(true);
-    }
-  };
+const handleLogin = () => {
+  if (PASSWORDS.includes(password)) {
+    setLoggedIn(true);
+    setPassword("");
+    setError(false);
+  } else {
+    setError(true);
+  }
+};
 
   const handleLogout = () => {
     setLoggedIn(false);
