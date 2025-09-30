@@ -117,7 +117,7 @@ const handleLogin = () => {
               />
               <Card
                 title="Pharos"
-                importance="HIGH"
+                importance="CRITICAL"
                 importanceLevel="high"
                 notes="Source (PDF): Pharos network requirements PDF"
                 href="https://dl.pharoscontrols.com/documentation/application_notes/archive/Pharos_Network_Guidelines.pdf"
@@ -128,7 +128,7 @@ const handleLogin = () => {
                 subtitle="Mission Briefing Room"
                 importance="HIGH"
                 importanceLevel="high"
-                notes="Source: See detailed modal"
+                notes="Source: click below"
                 isBiff
                 onOpenModal={() => setShowModal(true)}
               />
