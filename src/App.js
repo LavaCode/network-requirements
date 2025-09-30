@@ -101,7 +101,7 @@ const handleLogin = () => {
               <div className="flex items-start gap-3">
                 <AlertCircle className="w-5 h-5 text-sky-400 flex-shrink-0 mt-0.5" />
                 <div className="text-sm text-sky-100">
-                  <strong className="text-sky-300">Important:</strong> Review each device's requirements carefully. Clicking a card opens detailed documentation in a new tab and resets your session. For the Biff Dipper animatronic, use the "View Details" button to access firewall configuration guidance.
+                  <strong className="text-sky-300">Important:</strong> Review each device's requirements carefully. 
                 </div>
               </div>
             </div>
