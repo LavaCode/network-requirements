@@ -126,8 +126,8 @@ const handleLogin = () => {
               <Card
                 title="Biff Dipper Animatronic"
                 subtitle="Mission Briefing Room"
-                importance="HIGH"
-                importanceLevel="high"
+                importance="NORMAL"
+                importanceLevel="normal"
                 notes="Source: click below"
                 isBiff
                 onOpenModal={() => setShowModal(true)}
@@ -142,8 +142,8 @@ const handleLogin = () => {
               />
               <Card
                 title="BrightSign Sync Playback"
-                importance="NORMAL"
-                importanceLevel="normal"
+                importance="HIGH"
+                importanceLevel="high"
                 notes="Source (online): BrightSign network requirements for synchronized playback"
                 href="https://docs.brightsign.biz/advanced/sync-network-and-switch-settings"
                 onClick={handleCardClick}
