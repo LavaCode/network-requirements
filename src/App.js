@@ -85,7 +85,7 @@ const handleLogin = () => {
                   <h1 className="text-2xl font-bold">Device Network Requirements</h1>
                 </div>
                 <p className="text-slate-400 text-sm ml-14">
-                  Click any device card to view detailed network configuration requirements in a new tab.
+                  Click any device card to view detailed network configuration requirements.
                 </p>
               </div>
               <button
